@@ -340,7 +340,8 @@ transition-property: all;
     font-size: 5em;
     color: aliceblue;
      color: #87CEEB;
-     font-family:BPdots;
+     /* font-family: 'BPdots'; */
+     font-family:BPdots fallback 'BPdots' ;
     font-weight: normal;
     font-style: normal;
     position: absolute;
