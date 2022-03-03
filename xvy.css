@@ -1,0 +1,169 @@
+
+
+@media only screen and (max-device-width: 600px) {
+
+    *{
+      margin:0;
+      padding:0;
+    
+      }
+      
+      /* @font-face {
+        font-family: "BPdots";
+        src: url('./fonts/BPdots.ttf') format('ttf');
+        src: url("./fonts/BPdots.otf") format("otf");
+      }  */
+    .wrapperx{
+      width:100%;
+      height:600px;
+    
+        display:grid;
+      place-items:center;
+      overflow:hidden;
+    }
+    .wrapper{
+        width:100vw;
+      height:600px;
+      background:#87CEEB;
+      display:grid;
+      place-items:center;
+       transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+    
+    }
+    .mystyle2{
+    
+      
+      
+        width:100vw;
+      height:600px;
+      background:black;
+      display:grid;
+      place-items:center;
+       transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+    }
+    .facecircle{
+         width:200px;
+      height:200px;
+      background:orange;
+      border-radius:100%;
+        transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+        filter: drop-shadow(0px 0px 20px orange);
+      position: relative;
+     margin-top:-300px;
+      
+     
+    
+        }
+    .mystyle{
+        width:100px;
+      height:100px;
+      background:white;
+      border-radius:100%;
+        transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+      margin-top:-700px;
+    }
+    
+     .mou1{
+          position:absolute;
+            width: 500px;
+            height: 500px;
+            background-color: chocolate;
+            transform: rotate(40deg);
+            position: relative;
+            left: -250px;
+            top: 400px;
+            border-radius: 9px;
+    transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+            box-shadow: 330px -320px 0px 0px chocolate, 180px -80px 0px 0px chocolate,-10px -30px 0px 0px chocolate;
+       z-index:98;
+       
+        }
+    
+    .mou2{
+          position:absolute;
+            width: 500px;
+            height: 500px;
+            background-color: brown;
+            transform: rotate(40deg);
+            position: relative;
+            left: -250px;
+            top: 400px;
+            border-radius: 9px;
+    transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+            box-shadow: 330px -320px 0px 0px brown, 180px -80px 0px 0px brown,-10px -30px 0px 0px brown;
+       z-index:98;
+       
+        }
+    
+    .patti{
+            position:absolute;
+            width: 100%;
+            height: 1250px;
+            background-color: wheat;
+            bottom: -20px;
+      z-index:99;
+        }
+    .stars{
+       position:absolute;
+            width: 3px;
+            height: 3px;
+            background-color: white;
+            top: 90px;
+      border-radius:100%;
+      filter: drop-shadow(89px 60px 96px white);
+      z-index:99;
+      transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+       box-shadow: 30px 40px 0px 0px white,180px 40px 0px 0px white,-200px 90px 0px 0px white,340px 40px 0px 0px white,-350px 40px 0px 0px white;
+    }
+    .stars2{
+       position:absolute;
+            width: 3px;
+            height: 3px;
+            background-color: white;
+            top: 90px;
+      border-radius:100%;
+      filter: drop-shadow(89px 60px 96px white);
+      z-index:99;
+      transition-property: all;
+        transition-duration: 10s;
+        transition-timing-function: ease-in-out;
+       box-shadow: 30px 40px 0px 0px #87CEEB,180px 40px 0px 0px #87CEEB,-200px 90px 0px 0px #87CEEB,340px 40px 0px 0px #87CEEB,-350px 40px 0px 0px #87CEEB;
+    }
+    /* .facecircle:hover {
+      background:orange;
+    } */
+    /* .facecircle:hover + .wrapper{
+      background:white;
+    } */
+    
+    .h2{
+      font-size: 5em;
+      color: aliceblue;
+       color: #87CEEB;
+      font-family:'BPdots';
+      font-weight: normal;
+      font-style: normal;
+      position: absolute;
+      margin-bottom: 400px;
+    }
+    .h2 ::before{
+      font-family: Arial, sans-serif;
+    }
+    
+    
+  
+  }
